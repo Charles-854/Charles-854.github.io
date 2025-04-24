@@ -1,0 +1,90 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f9f9f9;
+}
+.container {
+    width: 90%;
+    max-width: 960px;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+/* Hero */
+.hero {
+    background: #0d47a1;
+    color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+.hero nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.hero nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    margin-bottom: 3rem;
+}
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+.job, .project {
+    margin-bottom: 1.5rem;
+}
+.job h3, .project h3 {
+    font-size: 1.25rem;
+    color: #0d47a1;
+}
+.subtle {
+    font-size: 0.9rem;
+    color: #666;
+}
+ul {
+    margin-top: 0.5rem;
+    list-style: disc inside;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+.skills-grid h4 {
+    margin-bottom: 0.5rem;
+    color: #0d47a1;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #eee;
+    font-size: 0.9rem;
+}
